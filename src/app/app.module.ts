@@ -15,6 +15,15 @@ import { AboutComponent } from './about/about.component';
 import { NewsComponent } from './news/news.component';
 import { FaqComponent } from './faq/faq.component';
 import { ContactComponent } from './contact/contact.component';
+import { CategoryComponent } from './category/category.component';
+import { SingleProductComponent } from './single-product/single-product.component';
+import { LoginComponent } from './login/login.component';
+import { TrackingComponent } from './tracking/tracking.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { CartComponent } from './cart/cart.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
+import { BlogComponent } from './blog/blog.component';
+import { SingleBlogComponent } from './single-blog/single-blog.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +39,16 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     NewsComponent,
     FaqComponent,
-    ContactComponent
+    ContactComponent,
+    CategoryComponent,
+    SingleProductComponent,
+    LoginComponent,
+    TrackingComponent,
+    CheckoutComponent,
+    CartComponent,
+    ConfirmationComponent,
+    BlogComponent,
+    SingleBlogComponent
   ],
   imports: [
     BrowserModule,
